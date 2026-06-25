@@ -1,0 +1,50 @@
+# =============================================
+#  SIGMAVEP — .gitignore
+# =============================================
+
+# ── Compilados Java ──────────────────────────
+*.class
+*.jar
+
+# ── Recursos compilados en target/classes ────
+target/classes/
+
+# ── Archivos de configuración local (credenciales) ──
+# db.properties externo (generado por el diálogo al iniciar)
+db.properties
+
+# ── IDEs ─────────────────────────────────────
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# Visual Studio Code
+.vscode/
+
+# NetBeans
+nbproject/
+nbbuild/
+nbdist/
+nb-configuration.xml
+
+# ── Sistema operativo ─────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ─────────────────────────────────────
+*.log
+
+# ── Temporales ───────────────────────────────
+*.tmp
+*.bak
+*.swp
